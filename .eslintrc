@@ -1,0 +1,30 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-var": "error",
+    "no-mixed-operators": "off",
+    "semi": 2,
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "linebreak-style": "off",
+    "no-underscore-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "no-console": ["warn", { "allow": ["error", "warn"]}],
+    "space-before-blocks": "error",
+    "space-before-function-paren": "error",
+    "no-bitwise": "off",
+    "prefer-rest-params": "off",
+    "global-require": "off",
+    "class-methods-use-this": "off",
+    "no-param-reassign": "off"
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "host": "api.{datacenter}.gamelockerapp.com",
+  "path": "/shards/global",
+  "accept": "application/vnd.api+json",
+  "datacenters": ["DC01"]
+}
