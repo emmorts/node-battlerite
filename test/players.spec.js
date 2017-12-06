@@ -7,14 +7,14 @@ describe('client', () => {
 
     it('should return a list of players', async () => {
       const result = await client.players.get();
-      
+
       expect(result).to.be.ok;
       expect(result.errors).to.not.be.ok;
     });
 
     it('should return a player by id', async () => {
-      const result = await client.players.getById(934569741945810944);
-      
+      const result = await client.players.get(934569741945810944);
+
       expect(result).to.be.ok;
       expect(result.errors).to.not.be.ok;
     });
